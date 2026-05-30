@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: goldenrod;
+    border-width: 2px;
+
+    width: 15%; /* ancho reducido para que quepan varias */
+    margin: 15px;
+    padding: 10px;
+
+    text-align: center;
+    box-sizing: border-box;
+
+    display: inline-block; /* clave para que se alineen horizontalmente */
+    background-color: #fff;
+}
+
+.tarjeta img {
+    width: 75%;
+    height: 200px; /* altura uniforme */
+    border-radius: 8px;
+}
+
+.oculto {
+    /* visibility: hidden; */
+    display: none; /* prueba ambas para ver la diferencia */
+}
